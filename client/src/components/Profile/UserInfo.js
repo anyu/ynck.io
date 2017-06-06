@@ -55,7 +55,9 @@ class UserInfo extends React.Component {
             <h2 className="user_display_name">{this.props.userInfo.first} {this.props.userInfo.last}</h2>
             <p> { tempHardCodedBio } </p>
             { loggedInUser.id === this.props.userInfo.id ?
-              <a href="#" onClick={(e) => this.handleEditProfile(e)}>edit profile</a>
+            <div>
+              <a href="#" onClick={(e) => this.handleEditProfile(e)}></a><div className="edit-icon"></div>
+              </div>
               : null
             }
           </div>
