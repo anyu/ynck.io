@@ -9,7 +9,7 @@ class Main extends React.Component {
     return (
       <div>
         <Header loggedInUser={loggedInUser}/>
-        <Home loggedInUser={loggedInUser}/> 
+        <Home loggedInUser={loggedInUser}/>
         <Footer />
       </div>
     );
