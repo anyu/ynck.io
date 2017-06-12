@@ -27,8 +27,8 @@ This file should not contain anything but `@import` and comments.
 @import
   'components/button',
   'components/dropdown',
-  'components/feed';
-
+  'components/feed',
+  'components/search';
 // 5. Page-specific styles
 @import
   'pages/home',
